@@ -84,9 +84,9 @@ function App() {
         </div>
       </div>
 
-      <div className="addTask container-input">
+      <div className="container-input">
         <input
-          placeholder="Adicione uma nova tarefa
+          placeholder="Type your Task
 "
           onChange={handleChange}
         />
@@ -131,7 +131,7 @@ function App() {
           </div>
           </div>
         
-        
+
         </div>  
       <div>{todoList.length===0 ? <div className="empty">
       <img className="list-img" src={list} alt="list" />

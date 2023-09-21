@@ -2,7 +2,7 @@
 .App{
     background: var(--gray-600, #1A1A1A);
 height: 100vh;
-
+overflow: auto;
 
 }
 
@@ -17,10 +17,9 @@ justify-content: center;
 }
 
 .container-input{
-    width: 736px;
+    max-width: 736px;
     display:flex;
     margin: auto;
-    width: 736px;
     margin-top: -27px;
     align-items: center;
     gap: 8px;
@@ -247,13 +246,14 @@ box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
 }
 
 .list{
-    display: flex;
-    margin: auto;
-width: 736px;
+display: flex;
+margin: auto;
+width: 50%;
 flex-direction: column;
 align-items: flex-start;
 gap: 24px;
 background: var(--gray-600, #1A1A1A);
+
 }
 .complete{
 border: none;
@@ -276,6 +276,8 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 140%; /* 19.6px */
+overflow: auto;
+word-wrap: break-word;
 }
 
 
