@@ -7,7 +7,7 @@ function App() {
   const [todoList, setTodoList] = useState([]);
   const [newTask, setNewTask] = useState("");
   const [newcompleted, setNewcompleted] = useState(false);
-  const [newnumcompleted, setNewnumcompleted] = useState(0);
+  
 
 
   const handleChange = (event) => {
@@ -130,18 +130,8 @@ function App() {
            <div className="number">{todoList.length}</div> 
           </div>
           </div>
-          <div className="Completed-task">
-            <div className="Completed">
-            Completed
-            </div>
-            <div className="number-completed">
-            <div className="number">{todoList.length}</div>
-            </div>
-          </div>
-
-
-
-
+        
+        
         </div>  
       <div>{todoList.length===0 ? <div className="empty">
       <img className="list-img" src={list} alt="list" />
