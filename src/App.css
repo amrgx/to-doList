@@ -185,7 +185,7 @@ background: var(--gray-400, #333);
 }
 .empty{
     margin: auto;
-    width: 736px;
+   max-width: 736px;
     height: 244px;
     display: flex;
 padding: 64px 24px;
